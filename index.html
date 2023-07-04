@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fetch API Example</title>
+</head>
+<body>
+    <h1>Liste des festivals</h1>
+
+    <ul id="festivalsList"></ul>
+    
+    <script src="/src/api.js"></script>
+     <script>   
+     const festival = new Festival()
+     festival.fetchData().then(data => {
+        festival.showData(data) 
+     })
+    </script>
+</body>
+</html>

@@ -1,5 +1,3 @@
-function getRandomNumber() {
-    return Math.floor(Math.random() * 100);
-}
+import fetchData from "./src/api";
 
-module.exports = getRandomNumber;
+fetchData()

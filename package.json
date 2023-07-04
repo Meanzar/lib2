@@ -1,15 +1,23 @@
 {
-  "name": "oss-iim-td4",
+  "name": "rom-lib2-iim",
   "version": "1.2.0",
   "description": "A random package",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.22.6",
+    "@babel/preset-env": "^7.22.6",
     "eslint": "^8.44.0",
-    "jest": "^29.5.0"
+    "jest": "^29.5.0",
+    "jsdom": "^22.1.0"
   }
 }
