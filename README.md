@@ -7,7 +7,7 @@ Installation
 You can install the Festival library using npm:
 
 ```
-npm install festival-library
+npm i rom-lib2-iim
 ```
 
 To use the Festival library, follow these steps:
